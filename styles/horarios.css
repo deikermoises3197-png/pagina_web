@@ -1,0 +1,52 @@
+body {
+    background: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #a70a07;
+}
+
+.horarios-table {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.horarios-table th,
+.horarios-table td {
+    padding: 14px 10px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.horarios-table th {
+    background: #a70a07;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.horarios-table tr:last-child td {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .horarios-table {
+        width: 100%;
+        font-size: 0.95rem;
+    }
+
+    .horarios-table th,
+    .horarios-table td {
+        padding: 8px 2px;
+    }
+}
